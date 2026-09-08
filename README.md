@@ -30,7 +30,17 @@ Nesta segunda etapa, a **física analítica completa, o comportamento da simula�
 
 ## Como executar
 
-Dentro da pasta `projectile_sim/`:
+Na pasta raiz do projeto:
+
+Crie e ative o ambiente virtual e instale as dependências:
+
+```powershell
+py -3.13 -m venv .venv
+.venv\Scripts\Activate
+pip install -r requirements.txt
+```
+
+Depois, execute a aplicação:
 
 ```bash
 python main.py
