@@ -65,19 +65,11 @@ Configuração padrão utilizada em testes:
    - **Dificuldade**: Manter a trajetória prevista atualizada enquanto o projétil está em movimento, sem travamento visual
    - **Resolução**: Implementar cálculo separado de pontos de trajetória com limite de samples e cache da última trajetória calculada
 
-### 2. **Escala Dinâmica dos Eixos Cartesianos**
-   - **Dificuldade**: Adaptar automaticamente a escala para lançamentos com alcances variados (1 metro até 100+ metros)
-   - **Resolução**: Algoritmo de cálculo de escala que encontra divisões "redondas" (10, 20, 50, 100, etc.) baseado nos valores máximos previstos
-
-### 3. **Precisão das Equações Analíticas**
-   - **Dificuldade**: Garantir que a simulação física numerada tenha correspondência exata com os valores calculados analiticamente
-   - **Resolução**: Validação contínua comparando posição da trajetória percorrida com cálculos de $x(t)$ e $y(t)$ em cada frame
-
-### 4. **Preservação de Trajetórias Múltiplas**
+### 2. **Preservação de Trajetórias Múltiplas**
    - **Dificuldade**: Armazenar e renderizar múltiplas trajetórias (prevista atual, prevista anterior, percorrida) sem conflito visual
    - **Resolução**: Sistema de camadas com cores e estilos distintos (preto pontilhado, azul suave, vermelho sólido) e estrutura de dados separada para cada trajetória
 
-### 5. **Pause e Retomada da Simulação**
+### 3. **Pause e Retomada da Simulação**
    - **Dificuldade**: Pausar sem perder estado da simulação e permitir alteração de parâmetros sem resetar
    - **Resolução**: Armazenar tempo absoluto de pausa e ajustar cálculos de tempo relativo ao retomar
 
