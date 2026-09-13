@@ -2,8 +2,6 @@
 
 Aplicação acadêmica de Física para simulação de lançamento oblíquo de projéteis, construída em **Python 3 + Pygame**, baseada em equações analíticas exatas.
 
-Nesta segunda etapa, a **física analítica completa, o comportamento da simulação e os controles interativos** foram implementados, utilizando elementos geométricos para o projétil.
-
 ## 🚀 Release v1.0.0
 
 A versão 1.0.0 está disponível para download em: [Releases](https://github.com/vinicius-sribeiro/ADO_fisica/releases/tag/v1.0.0)
